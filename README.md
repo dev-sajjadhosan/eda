@@ -112,11 +112,3 @@ Made with ❤️ by **Mohammad Sajjad Hosan**
 ## 📄 License
 
 MIT License — free for personal and commercial use.
-
----
-
-## 📌 TODOs
-
-* [ ] Support auto-import + index.ts sync
-* [ ] Add config file support
-* [ ] Option to skip certain folders/files
