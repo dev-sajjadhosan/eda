@@ -1,0 +1,45 @@
+{
+  "name": "eda",
+  "version": "1.0.0",
+  "description": "Auto export default generator for React/JSX/TSX files in src/**",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+  "eda": "dist/index.js"
+},
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "plugin",
+    "auto-export",
+    "export-default",
+    "developer-tool",
+    "typescript"
+  ],
+  "author": "Mohammad Sajjad Hosan",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "chokidar": "^3.5.3"
+  },
+  "peerDependencies": {
+    "vite": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "^20.5.1",
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}
