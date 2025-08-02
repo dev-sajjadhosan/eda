@@ -1,3 +1,20 @@
-node_modules
-dist
-eda-1.0.0.tgz
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local npm pack file
+*.tgz
+
+# Optional logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings (optional)
+.vscode/
+
+# Environment variables (if you ever use them)
+.env
+.env.*.local
